@@ -2,27 +2,26 @@ import React from "react";
 
 function About() {
   return (
-       <div className="relative w-full h-auto overflow-hidden">
-    <div className="relative py-14 flex flex-col md:flex-row items-center justify-center">
+    <div className="flex w-full overflow-hidden">
+      <div className="relative w-[110%]  h-[734px] flex justify-center">
         <img
           src="./bg-about-dark.png"
           alt="Background Dark"
-          className="absolute w-[120%] h-auto object-contain transition-animation"
+          className="absolute w-full h-full  fade-in -left-20"
         />
 
         <img
           src="./bg-about-light.png"
           alt="Background Light"
-          className="absolute w-[120%] h-auto object-contain transition-animation"
-          style={{ animationDelay: "2s" }}
+          className="absolute w-full h-full  fade-out -left-20"
+        />
+
+        <img
+          src="./overlay-image.png"
+          alt="Overlay"
+          className="z-10 h-[562px]"
         />
       </div>
-
-      <img
-        src="./overlay-image.png"
-        alt="Overlay"
-        className="absolute top-4 md:top-8 transform translate-y-10"
-      />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -8,7 +8,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  
+}
+body{
+  width: 100vw;
+  overflow-x: hidden
 }
 
- 
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity:0.2;
+  }
+}
+
+
+.fade-in {
+  animation: fadeIn 3.5s ease-in infinite;
+}
+
+.fade-out {
+  animation: fadeOut 3.5s ease-out infinite;
+}
