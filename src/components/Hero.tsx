@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="flex flex-col items-center text-center pt-24 gap-10  max-w-[995px] w-full mx-auto">
+    <div className="flex flex-col items-center text-center pt-24 gap-10 max-w-[995px] w-full mx-auto">
       <div className="text-4xl md:text-[70px] font-medium text-gray-800 leading-[92px]">
         Medical Software To Attract <br className="hidden md:block" /> And{" "}
         <span className="font-semibold">Retain Patients</span>

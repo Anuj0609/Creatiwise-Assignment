@@ -8,7 +8,6 @@ function Navbar() {
     <nav className="bg-[#D9D9D9] py-5 text-base font-medium text-black">
       <div className="mx-auto max-w-[72rem] w-full">
         <div className="flex justify-between items-center">
-          
           <div>
             <img src="./logo.png" alt="Logo" className="h-8" />
           </div>
