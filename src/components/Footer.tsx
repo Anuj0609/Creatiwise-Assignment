@@ -82,7 +82,7 @@ function Footer() {
             />
             <button className="absolute right-0 top-1/2 transform -translate-y-1/2 w-[40px] h-[40px] md:w-[50px] md:h-[50px] rounded-full bg-[#2A52BE] flex items-center justify-center">
               <img
-                src="./vector.png"
+                src="./Vector.png"
                 alt="Button Icon"
                 className="w-[8px] h-[16px] md:w-[10px] md:h-[20px]"
               />
