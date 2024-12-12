@@ -78,7 +78,7 @@ function Footer() {
             <input
               type="email"
               placeholder="Email"
-              className="rounded-[20px] md:rounded-[30px] bg-white px-3 py-[8px] pr-[50px] text-gray-800 text-sm md:text-[18px] font-medium placeholder:text-[#00000080] w-full"
+              className="md:h-[50px] rounded-[20px] md:rounded-[30px] bg-white px-3 py-[10px]  text-gray-800 text-sm md:text-[18px] font-medium placeholder:text-[#00000080] w-full"
             />
             <button className="absolute right-0 top-1/2 transform -translate-y-1/2 w-[40px] h-[40px] md:w-[50px] md:h-[50px] rounded-full bg-[#2A52BE] flex items-center justify-center">
               <img
