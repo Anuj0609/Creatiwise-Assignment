@@ -2,9 +2,9 @@ import React from "react";
 
 function Pricing() {
   return (
-    <div className="w-full flex justify-center mt-20">
+    <div className="w-full flex justify-center mt-4 md:mt-20">
       <div className="relative">
-        <div className=" relative bg-[#D9DEEF] md:bg-transparent md:absolute inset-0 flex flex-col items-center justify-center px-5 text-center z-10 max-w-[710px] mx-auto space-y-5 py-9 rounded-[30px] md:rounded-none md:transform md:translate-x-1/4 ">
+        <div className=" relative bg-[#D9DEEF] md:bg-transparent md:absolute inset-0 flex flex-col items-center justify-center px-5 text-center z-10 max-w-[710px] mx-auto gap-6 py-9 rounded-[30px] md:rounded-none md:transform md:translate-x-1/4 ">
           <div className="text-xl md:text-[40px] font-medium md:leading-[50px]">
             We work on a month-to-month basis, try for free with no commitments{" "}
           </div>

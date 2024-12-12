@@ -2,7 +2,7 @@ import React from "react";
 
 function Feature() {
   return (
-    <div className="flex justify-center py-10">
+    <div className="flex justify-center py-10  mt-4 md:mt-20">
       <div className="bg-[#DDE9FF] w-full md:max-w-[1160px] rounded-[30px] flex flex-col md:flex-row px-6 md:px-10 py-10 md:py-[100px] items-center">
         <div className="w-full md:w-1/2 space-y-6 md:space-y-10">
           <div className="text-2xl md:text-[40px] font-medium md:leading-[50px] text-center md:text-left">
