@@ -74,7 +74,7 @@ function Footer() {
           <div className="text-sm md:text-[20px] font-medium">
             Subscribe Newsletter
           </div>
-          <div className="relative w-[250px] md:max-w-[301px]">
+          <div className="relative w-[250px] md:max-w-[301px] mx-auto">
             <input
               type="email"
               placeholder="Email"
